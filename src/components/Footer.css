@@ -1,0 +1,98 @@
+/* Footer.css */
+
+.footer {
+  background-color: #54ffb8; /* Fundo verde menta */
+  color: #ffffff; /* Texto branco */
+  padding: 50px 20px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra para elevação */
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.logo-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #004d40; /* Verde mais escuro */
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 1.2rem;
+  color: #2d2d2d; /* Azul claro harmonioso */
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #54ffb8; /* Verde menta */
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.social-link:hover {
+  background-color: #004d40; /* Verde mais escuro */
+  color: #ffffff; /* Branco no hover */
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #2d2d2d; /* Azul claro */
+}
+
+.creditos {
+  font-size: 1rem;
+  color: #2d2d2d;
+}
+
+.creditos span {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer-logo {
+    font-size: 2.2rem;
+  }
+
+  .footer-description {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .social-link {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+}

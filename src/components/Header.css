@@ -1,0 +1,89 @@
+/* Header.css */
+
+.header {
+  background-color: #54ffb8; /* Fundo verde menta */
+  color: #ffffff; /* Texto branco */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra para elevação */
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #004d40; /* Verde mais escuro */
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.logo a:hover {
+  color: #1a936f; /* Verde levemente mais vibrante */
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: #004d40; /* Verde mais escuro */
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #1a936f; /* Verde mais vibrante */
+  color: #ffffff; /* Texto branco */
+}
+
+.nav-link.active {
+  background-color: #028b63; /* Destaque da página ativa */
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: center;
+  }
+}

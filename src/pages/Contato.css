@@ -1,0 +1,114 @@
+/* Contato.css */
+.contato {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .contato h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contato hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #0066ff, #00ccff);
+    margin: 20px 0;
+  }
+  
+  .info {
+    flex: 1;
+    min-width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info h4 {
+    color: #0066ff;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .info p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .form {
+    flex: 1;
+    min-width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .row input {
+    flex: 1;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #0066ff;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .btn-enviar {
+    background: linear-gradient(to right, #0066ff, #00ccff);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-enviar:hover {
+    background: linear-gradient(to right, #004cbf, #0099cc);
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .row {
+      flex-direction: column;
+    }
+  }
+  

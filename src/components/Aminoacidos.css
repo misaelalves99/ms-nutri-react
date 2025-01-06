@@ -1,0 +1,179 @@
+/* Container principal */
+.amino-acids-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: Arial, sans-serif;
+  }
+
+    /* Estilo para o título principal */
+  .title {
+    font-size: 2.5rem;
+    color: #2a2a2a;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  .subtitle-amino-acids {
+    text-align: center;
+  }
+  
+  /* Títulos das seções */
+  .subtitle-essentials,
+  .subtitle-non-essentials {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+/* Linha separadora */
+.divider-amino-acids {
+  width: 50%;
+  margin: 20px auto;
+  border-top: 2px solid #ccc;
+}
+
+/* Seção de texto */
+.text-section {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-section p {
+  margin-bottom: 20px;
+}
+
+/* Estilo para parágrafos */
+.text-section p:first-child {
+  font-style: italic;
+}
+
+.text-section p br {
+  margin-bottom: 10px;
+}
+
+  /* Container de cards */
+  .amino-acids-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Card individual */
+  /* Card individual */
+.amino-acids-card {
+  background-color: #f8f9fa;
+  border: 2px solid #e1e4e8;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  position: relative; /* Adicionado para posicionar o ribbon corretamente */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.amino-acids-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Fita decorativa (ribbon) */
+.ribbon-1,
+.ribbon-2,
+.ribbon-3,
+.ribbon-4,
+.ribbon-5,
+.ribbon-6,
+.ribbon-7,
+.ribbon-8 {
+  width: 60px;
+  height: 10px;
+  background-color: #2ecc71;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  border-radius: 5px;
+}
+
+.ribbon-2 {
+  background-color: #3498db;
+}
+
+.ribbon-3 {
+  background-color: #f39c12;
+}
+
+.ribbon-4 {
+  background-color: #e74c3c;
+}
+
+.ribbon-5 {
+  background-color: #8e44ad;
+}
+
+.ribbon-6 {
+  background-color: #d35400;
+}
+
+.ribbon-7 {
+  background-color: #16a085;
+}
+
+.ribbon-8 {
+  background-color: #c0392b;
+}
+
+  
+  /* Títulos dos cards */
+  .topic {
+    font-size: 18px;
+    font-weight: bold;
+    color: #34495e;
+    margin: 15px 0 10px;
+    text-transform: uppercase;
+  }
+  
+  /* Imagem do card */
+  .amino-acids-card img {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .subtitle-water-soluble,
+    .subtitle-fat-soluble {
+      font-size: 24px;
+    }
+  
+    .amino-acids-section {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  
+    .amino-acids-card {
+      padding: 15px;
+    }
+  
+    .amino-acids-card img {
+      max-width: 80px;
+    }
+  }
+  
