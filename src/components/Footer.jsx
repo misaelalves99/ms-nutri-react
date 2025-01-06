@@ -11,22 +11,22 @@ const Footer = () => {
           <p className="footer-description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         </div>
         <div className="redes-sociais">
-          <Link to="/twitter" className="social-link twitter">
+          <Link to="https://x.com/MisaelAlves110" target="_blank" className="social-link twitter">
             <FaTwitter />
           </Link>
-          <Link to="/facebook" className="social-link facebook">
+          <Link to="https://www.facebook.com/misael.alves.92317/" target="_blank" className="social-link facebook">
             <FaFacebook />
           </Link>
-          <Link to="/instagram" className="social-link instagram">
+          <Link to="https://www.instagram.com/misael_alves_99/" target="_blank" className="social-link instagram">
             <FaInstagram />
           </Link>
-          <Link to="/skype" className="social-link skype">
+          <Link to="/skype" target="_blank" className="social-link skype">
             <FaSkype />
           </Link>
-          <Link to="/github" className="social-link github">
+          <Link to="https://github.com/misaelalves99" target="_blank" className="social-link github">
             <FaGithub />
           </Link>
-          <Link to="/linkedin" className="social-link linkedin">
+          <Link to="https://www.linkedin.com/in/misael-alves-dos-santos-8510b11b0/" target="_blank" className="social-link linkedin">
             <FaLinkedin />
           </Link>
         </div>
@@ -34,7 +34,7 @@ const Footer = () => {
           © Copyright Nutrição. Todos os direitos reservados
         </div>
         <div className="creditos">
-          Desenvolvido por <span>Misael Alves</span>
+          Desenvolvido por <Link to="https://misael-alves-portfolio.vercel.app/" target="_blank"><span>Misael Alves</span></Link>
         </div>
       </div>
     </footer>

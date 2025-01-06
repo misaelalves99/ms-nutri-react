@@ -87,7 +87,13 @@
 .ribbon-5,
 .ribbon-6,
 .ribbon-7,
-.ribbon-8 {
+.ribbon-8,
+.ribbon-9,
+.ribbon-10,
+.ribbon-11,
+.ribbon-12,
+.ribbon-13,
+.ribbon-14 {
     width: 60px;
     height: 10px;
     background-color: #2ecc71;
@@ -123,6 +129,30 @@
   
 .ribbon-8 {
     background-color: #c0392b;
+}
+
+.ribbon-9 {
+    background-color: #2ecc71;
+}
+
+.ribbon-10 {
+    background-color: #3498db;
+}
+
+.ribbon-11 {
+    background-color: #8e44ad;
+}
+
+.ribbon-12 {
+    background-color: #f39c12;
+}
+
+.ribbon-13 {
+    background-color: #16a085;
+}
+
+.ribbon-14 {
+    background-color: #8e44ad;
 }
   
 /* Títulos dos cards */

@@ -15,7 +15,7 @@
   .contato hr {
     border: 0;
     height: 2px;
-    background: linear-gradient(to right, #0066ff, #00ccff);
+    background-color: #54ffb8;
     margin: 20px 0;
   }
   
@@ -30,7 +30,7 @@
   }
   
   .info h4 {
-    color: #0066ff;
+    color: #003e25;
     margin-bottom: 10px;
     font-size: 1.2rem;
   }
@@ -87,7 +87,7 @@
   }
   
   .btn-enviar {
-    background: linear-gradient(to right, #0066ff, #00ccff);
+    background: linear-gradient(to right, #01d57d, #54ffb8);
     color: #fff;
     border: none;
     padding: 12px;
@@ -98,7 +98,7 @@
   }
   
   .btn-enviar:hover {
-    background: linear-gradient(to right, #004cbf, #0099cc);
+    background: linear-gradient(to right, #004126, #003c23);
   }
   
   /* Responsividade */

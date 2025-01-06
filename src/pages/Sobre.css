@@ -15,20 +15,34 @@
   .hr-sobre {
     border: 0;
     height: 2px;
-    background: linear-gradient(to right, #0066ff, #00ccff);
+    background-color: #54ffb8;
     margin: 20px auto;
     width: 60%;
   }
   
   .subtitulo-sobre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.8rem;
-    color: #0066ff;
+    color: #212121;
     text-align: center;
-    margin: 30px 0;
     font-weight: bold;
+    margin: 20px 0;
+}
+
+
+  .texto-info {
+    width: 60%;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ff0000;
+    text-align: justify;
   }
   
   .texto-sobre {
+    width: 60%;
     font-size: 1.2rem;
     line-height: 1.8;
     color: #555;

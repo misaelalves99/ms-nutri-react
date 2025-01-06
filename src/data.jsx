@@ -191,42 +191,42 @@ export const mineralSaltsData = [
     { 
         id: 9, 
         name: "MAGNÉSIO (MG)", 
-        ribbonClass: "ribbon-8", 
+        ribbonClass: "ribbon-9", 
         img: Magnesio,
     },
 
     { 
         id: 10, 
         name: "MANGANÊS (MN)", 
-        ribbonClass: "ribbon-8", 
+        ribbonClass: "ribbon-10", 
         img: Manganes,
     },
 
     { 
         id: 11, 
         name: "POTÁSSIO (K)", 
-        ribbonClass: "ribbon-8", 
+        ribbonClass: "ribbon-11", 
         img: Potassio,
     },
 
     { 
         id: 12, 
         name: "SELÊNIO (SE)", 
-        ribbonClass: "ribbon-8", 
+        ribbonClass: "ribbon-12", 
         img: Selenio,
     },
 
     { 
         id: 13, 
         name: "SÓDIO (NA)", 
-        ribbonClass: "ribbon-8", 
+        ribbonClass: "ribbon-13", 
         img: Sodio,
     },
 
     { 
         id: 14, 
         name: "ZINCO (ZN)", 
-        ribbonClass: "ribbon-8", 
+        ribbonClass: "ribbon-14", 
         img: Zinco,
     },
 ];
@@ -284,7 +284,7 @@ export const aminoAcidsData = {
 
         { 
             name: "VALINA", 
-            ribbonClass: "ribbon-8", 
+            ribbonClass: "ribbon-9", 
             img: Valina
         },
     ],
@@ -315,43 +315,43 @@ export const aminoAcidsData = {
 
         { 
             name: "CISTEÍNA", 
-            ribbonClass: "ribbon-4", 
+            ribbonClass: "ribbon-5", 
             img: Cisteina 
         },
 
         { 
             name: "GLICINA", 
-            ribbonClass: "ribbon-4", 
+            ribbonClass: "ribbon-6", 
             img: Glicina
         },
 
         { 
             name: "GLUTAMATO", 
-            ribbonClass: "ribbon-4", 
+            ribbonClass: "ribbon-7", 
             img: Glutamato
         },
 
         { 
             name: "GLUTAMINA", 
-            ribbonClass: "ribbon-4", 
+            ribbonClass: "ribbon-8", 
             img: Glutamina
         },
 
         { 
             name: "PROLINA", 
-            ribbonClass: "ribbon-4", 
+            ribbonClass: "ribbon-9", 
             img: Prolina
         },
 
         { 
             name: "SERINA", 
-            ribbonClass: "ribbon-4", 
+            ribbonClass: "ribbon-10", 
             img: Serina
         },
 
         { 
             name: "TIROSINA", 
-            ribbonClass: "ribbon-4", 
+            ribbonClass: "ribbon-11", 
             img: Tirosina
         },
     ],
