@@ -1,6 +1,6 @@
 /* Container principal */
 .vitamins-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
   display: flex;
@@ -16,6 +16,13 @@
 
 .subtitle-vitamin {
   text-align: center;
+}
+
+/* Linha separadora */
+.divider-vitamin {
+  width: 50%;
+  margin: 20px auto;
+  border-top: 2px solid #ccc;
 }
 
 .subtitle-water-soluble,
@@ -117,15 +124,27 @@
   border-radius: 5px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-  .subtitle-water-soluble,
-  .subtitle-fat-soluble {
-    font-size: 24px;
+/* Responsividade aprimorada para os cards */
+@media (max-width: 1024px) {
+  .text-section {
+    font-size: 1rem;
+    padding: 15px;
   }
 
-  .vitamins-section {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle-vitamin {
+    font-size: 1.5rem;
+  }
+
+  .divider-vitamin {
+    width: 70%;
+  }
+
+  .vitamin-section {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 
   .vitamin-card {
@@ -136,4 +155,70 @@
     max-width: 80px;
   }
 }
+
+@media (max-width: 768px) {
+  .text-section {
+    font-size: 0.95rem;
+    padding: 10px;
+    line-height: 1.6;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle-vitamin {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .divider-vitamin {
+    width: 80%;
+  }
+
+  .vitamin-section {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .vitamin-card {
+    padding: 10px;
+  }
+
+  .vitamin-card img {
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-section {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .subtitle-vitamin {
+    font-size: 1rem;
+  }
+
+  .divider-vitamin {
+    width: 90%;
+  }
+
+  .vitamin-section {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .vitamin-card {
+    padding: 8px;
+  }
+
+  .vitamin-card img {
+    max-width: 60px;
+  }
+}
+
   

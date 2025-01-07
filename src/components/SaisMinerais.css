@@ -1,6 +1,6 @@
 /* Container principal */
 .mineral-salts-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -174,11 +174,56 @@
     border-radius: 5px;
 }
   
-/* Responsividade */
+/* Responsividade aprimorada para os cards */
+@media (max-width: 1024px) {
+    .text-section {
+      font-size: 1rem;
+      padding: 15px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle-mineral-salts {
+      font-size: 1.5rem;
+    }
+  
+    .divider-mineral-salts {
+      width: 70%;
+    }
+  
+    .mineral-salts-section {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+  
+    .mineral-salts-card {
+      padding: 15px;
+    }
+  
+    .mineral-salts-card img {
+      max-width: 80px;
+    }
+  }
+  
   @media (max-width: 768px) {
-    .subtitle-water-soluble,
-    .subtitle-fat-soluble {
-      font-size: 24px;
+    .text-section {
+      font-size: 0.95rem;
+      padding: 10px;
+      line-height: 1.6;
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .subtitle-mineral-salts {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+  
+    .divider-mineral-salts {
+      width: 80%;
     }
   
     .mineral-salts-section {
@@ -186,10 +231,43 @@
     }
   
     .mineral-salts-card {
-      padding: 15px;
+      padding: 10px;
     }
   
-    .vmineral-salts-card img {
-      max-width: 80px;
+    .mineral-salts-card img {
+      max-width: 70px;
     }
   }
+  
+  @media (max-width: 480px) {
+    .text-section {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    .subtitle-mineral-salts {
+      font-size: 1rem;
+    }
+  
+    .divider-mineral-salts {
+      width: 90%;
+    }
+  
+    .mineral-salts-section {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .mineral-salts-card {
+      padding: 8px;
+    }
+  
+    .mineral-salts-card img {
+      max-width: 60px;
+    }
+  }
+  
