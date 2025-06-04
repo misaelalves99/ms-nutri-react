@@ -1,9 +1,8 @@
 // src/components/SaisMinerais.tsx
 
-import type { FC } from 'react';
 import { mineralSaltsData } from '../data/mineralSalts';
 
-const SaisMinerais: FC = () => {
+const SaisMinerais: React.FC = () => {
   return (
     <section className="max-w-[1000px] mx-auto p-5 flex flex-col gap-10 font-sans">
       <h1 className="text-4xl font-bold text-center mt-8 text-gray-800">Sais Minerais</h1>

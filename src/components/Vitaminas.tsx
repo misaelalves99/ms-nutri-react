@@ -1,12 +1,11 @@
 // src/components/Vitaminas.tsx
 
-import { FC } from 'react';
 import { Link } from 'react-router-dom';
 
 import { vitaminData } from '../data/vitamins';
 import type { Vitamin } from '../types/vitamin';
 
-const Vitaminas: FC = () => {
+const Vitaminas: React.FC = () => {
   return (
     <section className="max-w-5xl mx-auto px-4 py-12 font-sans">
       <h1 className="text-4xl pt-12 font-bold text-center">Vitaminas</h1>
